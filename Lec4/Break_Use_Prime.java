@@ -2,7 +2,7 @@ package Lec4;
 
 import java.util.Scanner;
 
-public class Check_Prime {
+public class Break_Use_Prime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,6 +13,7 @@ public class Check_Prime {
 		while (i < n) {
 			if (n % i == 0) {
 				fact++;
+				break;
 			}
 			i++;
 		}
