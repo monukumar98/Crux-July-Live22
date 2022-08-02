@@ -1,33 +1,36 @@
-package Lec2;
+package Lec3;
+import java.util.Scanner;
 
-import java.util.*;
-
-public class Pattern_6 {
+public class  Pattern_9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int row = 1;
-		int space = 0;
-		int star = n;
+		int space = n - 1;
+		int star = 1;
 		while (row <= n) {
 
-			int i = 1;
-			while (i <= space) {
-				System.out.print("  ");
-				i++;
-			}
+			// space
 			int j = 1;
-			while (j <= star) {
-				System.out.print("* ");
+			while (j <= space) {
+				System.out.print("  ");
 				j++;
+			}
+
+			// star
+			int i = 1;
+			while (i <= star) {
+				System.out.print("* ");
+				i++;
 			}
 
 			row++;
 			System.out.println();
-			space += 2;// space = space +2;
-			star--;
+			space--;
+			star += 2;
 
 		}
 
