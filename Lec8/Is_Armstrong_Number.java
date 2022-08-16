@@ -12,6 +12,7 @@ public class Is_Armstrong_Number {
 
 	}
 
+	
 	public static boolean IsArmstrongNumber(int n) {
          int cod = countofdigit(n);
          

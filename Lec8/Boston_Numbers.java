@@ -43,6 +43,7 @@ public class Boston_Numbers {
 			n /= 10;
 		}
 		return sum;
+		
 	}
 
 }
