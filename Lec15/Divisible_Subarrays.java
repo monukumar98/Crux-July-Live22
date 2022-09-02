@@ -29,6 +29,9 @@ public class Divisible_Subarrays {
 		for (int i = 0; i < arr.length; i++) {
 			sum = sum + arr[i];
 			int idx = (int) (sum % n);
+			if (idx < 0) {
+				idx += n;
+			}
 			frq[idx] = frq[idx] + 1;
 
 		}
