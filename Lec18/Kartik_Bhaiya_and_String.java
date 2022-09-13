@@ -6,10 +6,10 @@ public class Kartik_Bhaiya_and_String {
 		// TODO Auto-generated method stub
 		String str = "abababbaaaaabbb";
 		int k = 3;
-		int b = flipchar(str, k, 'b');
-		int a = flipchar(str, k, 'a');
+		int flipb = flipchar(str, k, 'b');
+		int flipa = flipchar(str, k, 'a');
 
-		System.out.println(Math.max(a, b));
+		System.out.println(Math.max(flipa, flipb));
 
 	}
 
