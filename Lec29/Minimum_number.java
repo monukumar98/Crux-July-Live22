@@ -12,7 +12,7 @@ public class Minimum_number {
 			String str = sc.next();
 			minimum_number_from_given_Sequence(str);
 			System.out.println();
-			//t--;
+			t--;
 		}
 
 	}
