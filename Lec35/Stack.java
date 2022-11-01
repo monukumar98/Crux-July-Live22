@@ -2,7 +2,7 @@ package Lec35;
 
 public class Stack {
 
-	private int[] arr;
+	protected int[] arr;
 
 	private int top;
 
@@ -34,6 +34,7 @@ public class Stack {
 		if (isfull() == true) {
 			throw new Exception("Bklol Stack full hai");
 		}
+		
 		top++;
 		arr[top] = item;
 

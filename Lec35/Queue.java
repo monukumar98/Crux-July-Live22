@@ -2,9 +2,9 @@ package Lec35;
 
 public class Queue {
 
-	private int[] arr;
-	private int size;
-	private int front;
+	protected int[] arr;
+	protected int size;
+	protected int front;
 
 	public Queue() {
 		// TODO Auto-generated constructor stub
