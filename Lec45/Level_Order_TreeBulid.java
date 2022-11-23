@@ -64,5 +64,6 @@ public class Level_Order_TreeBulid {
 	public static void main(String[] args) {
 		Level_Order_TreeBulid lv = new Level_Order_TreeBulid();
 		lv.Display();
+	//	10 20 30 40 50 -1 60 -1 -1 -1 70 80 90 -1 -1 -1 -1 -1 -1
 	}
 }
