@@ -18,7 +18,7 @@ public class HashMap_Demo {
 		map.put("Kunal", 17);
 		map.put("Deepak", -90);
 		map.put("Amisha", 77);
-		// map.put(null, 77);
+		 map.put(null, 77);
 		System.out.println(map);
 // way 1
 //		Set<String> s = map.keySet();
@@ -29,15 +29,15 @@ public class HashMap_Demo {
 //		}
 
 		// way 2
-		for (String key : map.keySet()) {
-			System.out.println(key + " " + map.get(key));
-		}
-		System.out.println();
-		// way 3
-		ArrayList<String> ll = new ArrayList<>(map.keySet());
-		for (String key : ll) {
-			System.out.println(key + " " + map.get(key));
-		}
+//		for (String key : map.keySet()) {
+//			System.out.println(key + " " + map.get(key));
+//		}
+//		System.out.println();
+//		// way 3
+//		ArrayList<String> ll = new ArrayList<>(map.keySet());
+//		for (String key : ll) {
+//			System.out.println(key + " " + map.get(key));
+//		}
 
 //
 //		// contains
@@ -66,7 +66,7 @@ public class HashMap_Demo {
 		map1.put("Deepak", -90);
 		map1.put("Amisha", 77);
 		// map.put(null, 77);
-		// System.out.println(map1);
+		 System.out.println(map1);
 
 		LinkedHashMap<String, Integer> map2 = new LinkedHashMap<>();
 		// put O(1)
@@ -80,7 +80,7 @@ public class HashMap_Demo {
 		map2.put("Deepak", -90);
 		map2.put("Amisha", 77);
 		// map.put(null, 77);
-		// System.out.println(map2);
+		 System.out.println(map2);
 
 	}
 
